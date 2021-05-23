@@ -1,0 +1,14 @@
+//ALINEAR IMAGENES
+align-self: center; | Para alinear con display flex
+transform: translate(50%, 0%);
+                    L-R |  T-BOTTOM 
+
+para usar position absolute, es necesario asignar un position relative al contenedor padre que queremos usar para contener el elemento con absolute.
+
+si no se usa el relative en el contender, el elemento con absolute puede tomar de referencia a un contenedor que no queremos (ya que ese contenedor puede tener position relative)
+
+left: calc(50% - 20px);
+    50%: define cuanto quieres moverlo hacia la izquierda
+    20px: define cuanto quieres restarle a ese movimiento
+
+para centrar un elemento, (20px depende del tamaño del elemento)
